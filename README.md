@@ -7,3 +7,7 @@ Content:
    * Training degradation of very deep CNNs
    * Countermeasure: Batch normalization
    * Countermeasure: Skip-connections
+  
+6. Saliency analysis
+   * Saliency map
+   * Receptive fields
