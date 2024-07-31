@@ -18,6 +18,16 @@ Content:
    * Embedding space by classification task
    * Embedding space by contrastive task
   
-8. Segmentation
+8. Image Segmentation
    * Dataset: CWFID (crops vs weeds)
    * Segmentation with U-net
+  
+9. Transfer learning
+    * Pre-training dataset: Deep Weeds
+    * Pre-training task: multiclass classification
+    * Fine-tuning dataset: CWFID
+    * Fine-tuning task: semantic segmentation with U-net
+  
+10. Adversarial attacks
+    * Carlini-Wagner Attack on MNIST classification model
+    * Sparse pertubation with Hoyer-Square regularizer
